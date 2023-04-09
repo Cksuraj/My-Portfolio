@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio |Colloboration</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Skills</a></li>
+                    <li><a href="#portfolio">My Project</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i onclick="closemenu()" class="fa-solid fa-circle-xmark"></i>
+                </ul>
+                <i class="fa-solid fa-bars"onclick="openmenu()" ></i>
+            </nav>
+
+            <section class="introduction">
+            <div class="header-text">
+                <p>Full Stack Developer</p>
+                <h1>Hi, I'm <span> Suraj </span> Chaudhary <br> from India</h1>
+            </div>
+         <div id="gif">
+             <img src="./images/backgroundgif.gif" class="gif">
+         </div>
+
+        </section>
+        </div>
+    </div>
+    <!-- -----------about section------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <!-- left -->
+                <div class="about-col-1">
+                    <iframe width="320" height="560" src="https://www.youtube.com/embed/rtVbdyMbjRI" title="Tell me about yourself | Interview Question #1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+                </div>
+                <!-- right -->
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>  Hi , My Name is Suraj Chaudhary I am pasointe about Technology which the is future excites Developer to be ready with tech for a change.
+
+                        Certain skills that i have worked within projects web development with ( MySQL, ReacJS) DSA with JAVA , Linux(OS) & Google ☁️ platform.
+                        
+                        Technology never Stop it will Update and replace with New features.
+                        
+                        I am enthusiastic about new learning opportunities and undertake challenging tasks to constantly expand my skill set and experience for the best results. 
+                        
+                        Outside of tech i am music lover and like to watch movie with larg 🍿
+                    </p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('Skills')">Skills</div>
+                        <div class="tab-links" onclick="opentab('Experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('Education')">Education</div>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>M.sc(CS)</span><br>Late Pandharinath Patil Indstitue of Management Stuides and Information technology  <span> CGPA 83%</span>, Aurangabad  </li>
+                            <li><span>BCS</span><br>MGM.DR.G.Y Pathrikar college of CS and IT <span> CGPA 65%</span>, Aurangabad  </li>
+                            <li><span>XII </span><br>Shivchhatrapati college <span> 60%</span>, Aurangabad  </span> </li>
+                            
+                            <li><span>X </span><br>Sudhakar raavnaik Highschoo<span> 75%</span> , Aurangabad </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-contents active-tab skill-icon" id="Skills">
+                        <ul>
+                            <li><i class="fa-brands fa-html5" title="HTML"></i>
+                            <i class="fa-brands fa-css3-alt" title="CSS"></i>
+                            <i  title="javascript" class="fa-brands fa-js"></i>
+                            <i class="fa-brands fa-react" title="React"></i>
+                            <i title="Linux" class="fa-brands fa-linux"></i>
+                            </li>
+                            <!-- <li></li>  SQl
+                            <li></li>    JAVA Laungauge
+                            <li></li>  more fremwork   -->
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web App Interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Android App Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------Services-------------------- -->
+    
+    <!-- ------portfolio-------- -->
+    <div id="Portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png">
+                    <div class="layer">
+                        <h3>Tic-Tog To</h3>
+                        <p> This is small mini-projects which i build useing HTML,CSS and javascript. You can check by pressing the live button
+                     </p><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png">
+                    <div class="layer">
+                        <h3>Random Quote genrater</h3>
+                        <p> This is my 2nd mini-project which i build useing the (HTML,CSS ,javascript). I also used one API to genrater Random code by clicking the button. You can check it by clicking the live button 
+                        </p><a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png">
+                    <div class="layer">
+                        <h3>TO-DO List</h3>
+                        <p> I build TO-DO App which helps to create our daily task and after compliting it we can delete. I used (HTML,CSS and javascript)
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See More</a>
+        </div>
+    </div>
+    
+    <!-- Suraj Continue your task -->
+
+
+<div id="contact">
+    <div class="container">
+
+        <div class="row">
+            <div class="contact-left">
+
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>sjchaudhary00@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+91 9172198691</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-discord"></i>
+                    </a>
+                    
+                    <a href="#"><i class="fa-brands fa-github"></i>
+                    </a>
+                    
+                    <a href="#"><i class="fa-brands fa-instagram"></i>
+                    </a>
+                    
+                    <a href="#"><i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+                <a href="./images/Suraj Chaudhary Resume.pdf" download class="btn btn-to"  > Download CV </a>
+            </div>
+            
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    
+                    <input type="email" name="Email" placeholder="Your Email" required>
+
+                    <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2"> Submit</button>
+                </form>
+                <span id="msg"> Hello world ! </span>
+            </div>
+            
+        </div>
+    </div>
+    <div class="copyright">
+
+        <p> Nice To Meet You <i class="fa-regular fa-heart"></i>
+            Would you like to Colloboration contact me !</p>
+    </div>
+</div>
+
+
+<!--  Script for Tablinks and classname -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+    <!-- for side menu javascript -->
+
+    <script>
+
+        let sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxnfmW_JC4We1KwRx1zn2tgsf-6yCqaN3OxAW-tJhcpn5wSFaCXkic7Ta5udIO1cGq6/exec '
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>{
+            msg.innerHTML="Your response has been submited !"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+
+</html>
+
+
+</div>
+
+
+<!--  Script for Tablinks and classname -->
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+
+</body>
+
+</html>
