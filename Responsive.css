@@ -1,0 +1,427 @@
+/* ------------CSS for Small Screeen _---------   */
+
+/* 
+@media only screen and (max-width: 600px){
+
+  .header-text {
+    margin-top: 100%;
+    font-size: 16px;
+  }
+
+  .header-text h1{
+    font-size: 30px;
+  }
+
+  nav .fa-solid{
+    display: block;
+    font-size: 25px;
+
+  }
+
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px ;
+    background: #ababab;
+    color: black;
+    transition: right 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px;
+
+  }
+
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+
+  }
+  
+  .sub-title{
+    font-size: 40px;
+  }
+
+  .about-col-1,.about-col-2{
+    flex-basis: 100%;
+  }
+
+  .about-col-1{
+    margin-bottom: 30px;
+  }
+
+  .about-col-2{
+    font-size: 14px;
+  }
+
+  .tab-links{
+    font-size: 16px;
+    margin-right: 20px;
+  }
+ 
+  .contact-left,.contact-right{
+    flex-basis: 100%;
+  }
+
+  .copyright{
+    font-size: 14px;
+  }
+
+} */
+
+/* Media Query for mobile to tablet  */
+
+@media (min-width: 425px) and (max-width: 768px) {
+    .header-text {
+      margin-top: 23%;
+      font-size: 20px;
+    }
+  
+    .header-text h1 {
+      margin-top: 13px;
+      font-size: 25px;
+    }
+  
+    .container {
+      margin: 20px;
+    }
+  
+    .gif {
+      height: 210px;
+      margin-top: 5rem;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      margin-left: 50px;
+      box-shadow: 10px 0px 20px white;
+  
+    }
+  
+    .introwindow {
+      width: 420px;
+      height: 300px;
+    }
+  
+    .sub-title {
+      font-weight: 600;
+      font-size: 35px;
+      color: #007bff;
+    }
+  
+    .intro-row {
+      display: flex;
+      height: 100vh;
+      width: fit-content;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .row2 {
+      display: flex;
+      flex-direction: row-reverse;
+      height: 90vh;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+    }
+  
+    .about-col-2 {
+      text-align: start;
+    }
+  
+    #My-Projects {
+      margin-top: 200px;
+    }
+  
+    #about {
+      margin-top: 110px;
+      color: #ababab;
+    }
+  
+    .about-col-1 {
+      margin-top: 240px;
+    }
+  
+    .contact-left {
+      flex-basis: 40%;
+      margin: 0px 40px 80px 20px;
+    }
+  
+    .copyright {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      background: #262626;
+      font-weight: 600;
+      margin-top: 50px;
+    }
+  }
+  
+  /* @media query for tablet to laptop screen  */
+  
+  @media (min-width: 800px) and (max-width: 1024px) {
+    .header-text {
+      margin-top: 15%;
+      font-size: 35px;
+    }
+  
+    .header-text h1 {
+      margin-top: 10px;
+      font-size: 30px;
+    }
+  
+    .gif {
+      height: 250px;
+      margin-top: 5rem;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      margin-right: 70px;
+      box-shadow: 10px 0px 20px white;
+  
+    }
+  
+    .introwindow {
+      width: 320px;
+      height: 380px;
+      margin-top: 30px;
+    }
+  
+    .sub-title {
+      font-weight: 600;
+      font-size: 35px;
+      color: #007bff;
+    }
+  
+    .intro-row {
+      display: flex;
+      height: 60vh;
+      margin: 10px;
+      width: fit-content;
+      flex-direction: row-reverse;
+      justify-content: space-around;
+    }
+  
+    .copyright {
+      margin-top: 160px;
+    }
+  }
+  
+  /* @media query for tablet to laptop screen  */
+  @media (min-width: 768px) and (max-width: 800px) {
+    .header-text {
+      margin-top: 20%;
+      font-size: 25px;
+    }
+  
+    .header-text h1 {
+      margin-top: 10px;
+      font-size: 30px;
+    }
+  
+    .gif {
+      height: 210px;
+      margin-top: 5rem;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      margin-right: 130px;
+      box-shadow: 10px 0px 20px white;
+  
+    }
+  
+    .introwindow {
+      width: 420px;
+      height: 300px;
+    }
+  
+    .sub-title {
+      font-weight: 600;
+      font-size: 35px;
+      color: #007bff;
+    }
+  
+    .intro-row {
+      display: flex;
+      height: 100vh;
+      width: fit-content;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .intro-row2 {
+      display: flex;
+      flex-direction: row-reverse;
+      height: 90vh;
+      justify-content: center;
+      align-items: center;
+      width: fit-content;
+    }
+  
+    .about-col-2 {
+      text-align: start;
+    }
+  
+    #My-Projects {
+      margin-top: 200px;
+    }
+  
+    #about {
+      margin-top: 110px;
+      color: #ababab;
+    }
+  
+    .about-col-1 {
+      margin-top: 240px;
+    }
+  
+    .contact-left {
+      flex-basis: 40%;
+      margin: 0px 40px 80px 20px;
+    }
+  
+    .copyright {
+      width: 100%;
+      text-align: center;
+      padding: 20px 0;
+      background: #262626;
+      font-weight: 600;
+      margin-top: 50px;
+    }
+  }
+  
+  /* Large mobile to small mobile */
+  @media (min-width: 300px) and (max-width: 425px) {
+    .header-text p {
+      margin-top: 23%;
+      font-size: 16px;
+      padding-left: 40px;
+    }
+  
+    .header-text h1 {
+      margin-top: 10px;
+      font-size: 18px;
+      padding-left: 40px;
+    }
+  
+    .intro-about {
+      margin: 0px;
+    }
+  
+    nav .fa-solid {
+      display: block;
+    }
+  
+    .container nav ul {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: -200px;
+      width: 200px;
+      height: 100vh;
+      padding-top: 50px;
+      background: white;
+      transition: right 0.5s;
+      color: #007bff;
+    }
+  
+    .container nav ul li {
+      padding: 15px;
+      margin: 5px;
+      color: #007bff;
+    }
+  
+    .container nav ul li a {
+      color: #007bff;
+      font-size: 1.5rem;
+      border-bottom: 2px solid black;
+    }
+  
+    .container nav ul .fa-solid {
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      cursor: pointer;
+    }
+  
+    .container nav {
+      display: block;
+      display: flex;
+      font-size: 3rem;
+    }
+  
+    .gif {
+      height: 170px;
+      margin: 5rem 3rem 0rem 3rem;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+      margin-left: 60px;
+      box-shadow: 10px 0px 20px white;
+      transition: 1s;
+    }
+  
+    .introwindow {
+      width: 280px;
+      height: 380px;
+      margin-top: 100px;
+    }
+  
+    .introduction {
+      display: flex;
+      padding-top: 20px;
+      align-items: center;
+      align-content: center;
+    }
+  
+    .sub-title {
+      font-weight: 600;
+      font-size: 35px;
+      color: #007bff;
+    }
+  
+    .intro-row {
+      display: flex;
+      height: 100vh;
+      margin-top: 125px;
+      width: fit-content;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+  
+  
+    .about-col-2 {
+      margin: 10px;
+    }
+  
+    .tab-contents {
+      height: max-content;
+    }
+  
+    #My-Projects {
+      /* margin-top: 110px; */
+      margin-top: 300px;
+      text-align: center;
+    }
+  
+    .contact-left {
+      flex-basis: 40%;
+      margin: 0px 40px 80px 20px;
+    }
+  
+    .copyright {
+      margin: 50px 0px 5px 8px;
+    }
+  
+    .row2 {
+      flex-direction: column-reverse;
+      justify-content: space-around;
+      align-items: start;
+    }
+  
+    #contact {
+      height: 100vh;
+    }
+  }
