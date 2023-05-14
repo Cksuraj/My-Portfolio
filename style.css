@@ -17,6 +17,7 @@ html {
   scroll-behavior: smooth;
 }
 
+
 body {
   background: #ffebeb;
   color: #007bff;
@@ -100,6 +101,12 @@ nav ul li a:hover::after {
   font-size: 30px;
 }
 
+.type-effect{
+  position: absolute;
+  top: 130px;
+  color: #ee2225;
+}
+
 .header-text h1 {
   margin-top: 20px;
   font-size: 45px;
@@ -114,6 +121,7 @@ nav ul li a:hover::after {
 #about {
   color: #ababab;
 }
+
 
 .intor-about {
   display: flex;
@@ -210,6 +218,10 @@ nav ul li a:hover::after {
   transition: 1s;
 }
 
+.skill-Icon ul{
+  display: grid;
+grid-template-columns: 10ch auto;
+}
 .tab-contents ul li span {
   color: #4089d8;
   font-size: 14px;
@@ -258,6 +270,10 @@ nav ul li a:hover::after {
   object-fit: cover;
 }
 
+.fa-code{
+  font-size: 20px;
+  padding-left: 10px;
+}
 .content {
   position: absolute;
   width: 100%;
@@ -546,6 +562,42 @@ nav .fa-solid {
     padding: 10px;
   }
 
+  /* humburg */
+
+  
+  nav .fa-solid{
+    display: block;
+    font-size: 25px;
+
+  }
+
+  nav ul{
+    position: fixed;
+    top: 0;
+    right: -200px;
+    width: 200px;
+    height: 100vh;
+    padding-top: 50px ;
+    background: #ababab;
+    color: black;
+    transition: right 0.5s;
+  }
+
+  nav ul li{
+    display: block;
+    margin: 25px;
+
+  }
+
+  nav ul .fa-solid{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    cursor: pointer;
+
+  }
+  
+
   .header-text {
     margin-top: 50px;
     display: flex;
@@ -606,10 +658,10 @@ nav .fa-solid {
   }
 
   .container-res {
-    width: min-content;
+    /* width: min-content; */
     margin: 0;
     flex-direction: column;
-    padding: 25px;
+    padding: 15px;
   }
 
   .container-res h1 {
@@ -619,9 +671,13 @@ nav .fa-solid {
 
   }
 
+.work {
+  width:100% ;
+}
+
   .work-list {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     grid-gap: 40px;
     margin-top: 30px;
   }
@@ -667,7 +723,12 @@ nav .fa-solid {
     width: 330px;
     color: #40394a;
   }
-
+  /* .about-col-2 p {
+    font-size: 14px;
+    width: 375px;
+    text-align: justify;
+    color: #40394a;
+} */
 
   /* btn */
 
@@ -715,6 +776,22 @@ nav .fa-solid {
     padding-inline: 30px;
   }
 
+  #gif p {
+    border: 2px solid red;
+    position: absolute;
+    top: 40px;
+    width: max-content;
+    left: 150px;
+    font-size: 10px;
+}
+
+.work img {
+    width: -webkit-fill-available;
+    height: 250px;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
   .btncv-res {
     display: block;
     margin: 10px 25px 5px 25px;
