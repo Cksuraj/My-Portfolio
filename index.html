@@ -6,14 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Suraj Dev</title>
-    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./Responsive.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
     <!-- Navbr -->
     <div id="header">
         <div class="container">
@@ -24,6 +24,14 @@
                     <li><a href="#Skills">Skills</a></li>
                     <li><a href="#My-Projects">My Project</a></li>
                     <li><a href="#contact">Contact</a></li>
+                    <li id="sidecontact">
+                        <a href="https://github.com/Cksuraj" target="_blank"><i class="fa-brands fa-github"></i>
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/suraj-chaudhary-4406401b4/" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </li>
                     <i onclick="closemenu()" class="fa-solid fa-circle-xmark"></i>
                 </ul>
                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
@@ -36,7 +44,7 @@
             <h1>Hi, I'm <span> Suraj </span> Chaudhary,<br> from India</h1>
         </div>
         <div id="gif">
-            <p ><span class="type-effect"></span> </p>
+            <p><span class="type-effect"></span> </p>
             <img src="./images/backgroundgif.gif" class="gif">
         </div>
     </section>
@@ -55,10 +63,11 @@
                     </div>
                     <div class="content">
                         <div class="detail">
-                            <h2> Suraj Chaudhary<br /><span>FrontEnd Dev</span></h2>
+                            <h2> <br /><span>FrontEnd Developer</span></h2>
                             <ul class="sci">
                                 <li>
-                                    <a href="https://auth.geeksforgeeks.org/user/sjchaud6m4n/practice" target="_blank"><i class="fa-solid fa-code"></i></a>
+                                    <a href="https://auth.geeksforgeeks.org/user/sjchaud6m4n/practice"
+                                        target="_blank"><i class="fa-solid fa-code"></i></a>
                                 </li>
 
                                 <li> <a href="https://github.com/Cksuraj" target="_blank"><i
@@ -101,7 +110,7 @@
 
                 <div class="tab-contents" id="Education">
                     <ul>
-                        <li><span>M.sc(CS)</span><br>Late Pandharinath Patil Indstitue of Management Stuides and, <br> 
+                        <li><span>M.sc(CS)</span><br>Late Pandharinath Patil Indstitue of Management Stuides and, <br>
                             Information technology <span> CGPA 83%</span>, Aurangabad. </li>
                         <li><span>BCS</span><br>MGM.DR.G.Y Pathrikar college of CS and, <br> IT <span> CGPA 65%</span>,
                             Aurangabad. </li>
@@ -124,21 +133,22 @@
                         <li><span> Database </span>
                             <br>
                             <i title="Linux" class="fa-brands fa-linux"></i>
-                            <i class="fa-solid fa-database"></i>
+                            <i class="fa-solid fa-database" title="SQL"></i>
                         </li>
                     </ul>
                 </div>
 
                 <div class="tab-contents" id="Experience">
                     <ul>
-                        <li><span>" Medical Billing "</span><br> I Build this porject to reduce the work. This will
-                            improve the efficiency and performance of the medical shop.</li>
-                        <li><span>" Software Developer Intern "</span><br> I have complited Software internship at
-                            AVRO Technology pvt.ltd , pune by remote(Mode) In this i leared new skills and
-                            technology which will help to become a Great Software Enginner.</li>
-                        <li><span>" My-Portfolio"</span><br>This is my recent Project which I have been working. In
-                            this project i am adding all my mini as well as Majore Project to show case my learning
-                            and skill. </li>
+                        <li><span>" Healthcare Center "</span><br> This website is built using HTML, CSS, and
+                            JavaScript, along with the Bootstrap framework, to ensure a seamless and user-friendly
+                            experience.</li>
+                        <li><span>" MoviesHub Responsive "</span><br>This is small mini-projects which i build useing
+                            HTML,CSS and javascript. You can check by
+                            pressing the live button. </li>
+                        <li><span>" ShopHub "</span><br>This is small mini-projects which i build useing HTML,CSS and
+                            javascript. You can check by
+                            pressing the live button. </li>
                     </ul>
                 </div>
             </div>
@@ -150,65 +160,85 @@
         <div class=" container-res">
             <h1 class="sub-title">My Projects</h1>
             <div class="work-list">
-                <div class="work">
-                    <img src="./images/Screenshot (11).png">
+                <div class="work" title="Healthcare center">
+                    <!--Healthcare center  ( add BMI calculator and calrise counter)-->
+                    <img src="./images/Healthcare.png">
                     <div class="layer">
-                        <h3>Tic-Tog To</h3>
+                        <h3>Healthcare Center </h3>
+                        <p> This website is built using HTML, CSS, and JavaScript, along with the Bootstrap framework,
+                            to ensure a seamless and user-friendly experience.
+                        </p>
+                        <a target="_blank"> Github | <i class="fa-brands fa-github"></i> | </a>
+                    </div>
+                </div>
+
+                <div class="work" title="Shophub"> <!-- Shophub -->
+                    <img src="./images/Shophub.png">
+                    <div class="layer">
+                        <h3>Shophub</h3>
                         <p> This is small mini-projects which i build useing HTML,CSS and javascript. You can check by
                             pressing the live button
                         </p>
-                        <button> Github | <i class="fa-brands fa-github"></i> | </button>
+                        <a href="https://github.com/00123nikhil/ShopHub" target="_blank"> Github | <i
+                                class="fa-brands fa-github"></i> | </a>
                     </div>
                 </div>
-                <div class="work">
-                    <img src="./images/Screenshot (13).png">
+
+                <div class="work" title="Beats Headphone"> <!-- Bets Headphone-->
+                    <img src="./images/beats(1).png">
                     <div class="layer">
-                        <h3>Calculator</h3>
+                        <h3>Beats Headphone</h3>
                         <p> This is small mini-projects which i build useing HTML,CSS and javascript. You can check by
                             pressing the live button
                         </p>
-
-                        <button> Github | <i class="fa-brands fa-github"></i> | </button>
+                        <a href=" " target="_blank"> Github | <i class="fa-brands fa-github"></i> | </a>
                     </div>
                 </div>
-                <div class="work">
-                    <img src="./images/Screenshot (10).png">
+
+                <div class="work" title="MoviesHub Responsive"> <!--Movies Responsive -->
+                    <img src="./images/Movieshub.png">
                     <div class="layer">
-                        <h3>Random Quote genrater</h3>
-                        <p> This is my 2nd mini-project which i build useing the (HTML,CSS ,javascript). I also used one
-                            API to genrater Random code by clicking the button. You can check it by clicking the live
-                            button
+                        <h3>MoviesHub Responsive</h3>
+                        <p> This is small mini-projects which i build useing HTML,CSS and javascript. You can check by
+                            pressing the live button.
                         </p>
-
-                        <button> Github | <i class="fa-brands fa-github"></i> | </button>
+                        <a href="https://github.com/Cksuraj/MoviesHub_Responsive" target="_blank"> Github | <i
+                                class="fa-brands fa-github"></i> | </a>
                     </div>
                 </div>
-                <div class="work">
-                    <img src="./images/Screenshot (12).png">
+
+                <div class="work" title="Usability Hub"> <!--Useability Hub-->
+                    <img src="./images/Usabilityhub.png">
                     <div class="layer">
-                        <h3>TO-DO List</h3>
-                        <p> I build TO-DO App which helps to create our daily task and after compliting it we can
-                            delete. I used (HTML,CSS and javascript)
+                        <h3>Usability Hub</h3>
+                        <p>
+                            At Usablity Hub project, our mission is to empower businesses like yours with the tools,
+                            services, and solutions they need to thrive in today's competitive landscape. We are
+                            passionate about helping you overcome challenges, seize opportunities, and achieve
+                            sustainable growth.
                         </p>
-
-                        <button> Github | <i class="fa-brands fa-github"></i> | </button>
+                        <a href="https://github.com/Cksuraj/My-Projects/tree/main/UsabilityHub-A" target="_blank">
+                            Github | <i class="fa-brands fa-github"></i> | </a>
                     </div>
                 </div>
 
-                <div class="work">
+
+                <div class="work"><!-- More Projects direct to git repo to see project highlights -->
                     <img src="./images/imgpm.jpg">
                     <div class="layer">
                         <h3>More Projects </h3>
                         <p> To See More Checkout My github Acc</p>
-                        <a href="https://github.com/Cksuraj" target="_blank"> Github | <i class="fa-brands fa-github"></i> | </a>
+                        <a href="https://github.com/Cksuraj/Mini-Projects-HTML-CSS-and-JS-" target="_blank"> Github | <i
+                                class="fa-brands fa-github"></i> | </a>
                     </div>
                 </div>
+
+
+
             </div>
-            <button class="btn btn-res"> See More </button>
+            <button class="btn btn-res" id="Btn"> See More </button>
         </div>
     </div>
-
-
 
     <!-- Contact section  -->
     <div id="contact">
@@ -218,8 +248,8 @@
                 <div class="contact-left">
 
                     <h1 class="sub-title"> Contact Me</h1>
-                    <p><i class="fa-solid fa-envelope"></i>sjchaudhary00@gmail.com</p>
-                    <p><i class="fa-solid fa-phone"></i>+91 9172198691</p>
+                    <p><i class="fa-solid fa-envelope" id="envelope"></i>sjchaudhary00@gmail.com</p>
+                    <p><i class="fa-solid fa-phone" id="phone"></i>+91 9172198691</p>
                     <div class="social-icons">
 
                         <a href="https://github.com/Cksuraj" target="_blank"><i class="fa-brands fa-github"></i>
@@ -229,8 +259,8 @@
                                 class="fa-brands fa-linkedin"></i>
                         </a>
                     </div>
-                    <a href="https://drive.google.com/file/d/1-lvoruD2E77uNF7UgYzahAG3orqkTa0u/view?usp=sharing"
-                        download class="btn btncv-res"> Download CV </a>
+                    <a href="https://docs.google.com/document/d/1Xi0g_AnVCpyYghnfkq4gwLr4Sto7bQPv4gi1RhgjAH8/edit?usp=sharing"
+                        target="_blank" download class="btn btncv-res"> Resume </a>
                 </div>
 
                 <div class="contact-right">
@@ -240,9 +270,9 @@
                         <input type="email" name="Email" placeholder="Your Email" required>
 
                         <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="btn btn2"> Submit</button>
+                        <button type="submit" id="Btn" class="btn btn2"> Submit</button>
                     </form>
-                    <span id="msg"> Hello world ! </span>
+                    <span id="msg"> </span>
                 </div>
 
             </div>
@@ -252,22 +282,25 @@
     <!-- copyright section  -->
     <div class="copyright">
 
-        <p> Nice To Meet You <i class="fa-regular fa-heart"></i>
+        <p> Submit your feedback <i class="fa-regular fa-heart"></i>
             Would you like to Colloboration contact me!</p>
     </div>
 
+
+
+    <!-- Javascripts files -->
     <script src="./script.js"></script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script> 
-<script>
-    var typed = new Typed(".type-effect",{
-    strings: [ " Full Stack Developer","Coder","Devloper"],
-    typeSpeed:50,
-    backSpeed:100, 
-    loop:true
-    })
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"> </script>
+    <script>
+        var typed = new Typed(".type-effect", {
+            strings: [" Web Devlopment ", " Java Coder", "GitHub","React.js","Bootstrap",],
+            typeSpeed: 50,
+            backSpeed: 100,
+            loop: true
+        })
     </script>
-    
+
 </body>
 
 </html>
