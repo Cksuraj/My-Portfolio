@@ -1,10 +1,19 @@
+:root {
+  --textHighlight-color: #a24284;
+  --background-color: #f9fafe;
+  --primary-text-color: #2e1239;
+  --secondary-text-color: #595959;
+  --b1-btn-color: #320e3b;
+  --b2-btn-color: #a24284;
+  --nav-bgc-color: #320e3b;
+}
+
 /* ------------CSS for Small Screeen _---------   */
 
 /* mobile to media query */
-@media (min-width: 320px) and (max-width: 425px) {
+@media (min-width: 320px) and (max-width: 430px) {
   /* 1st */
   .introduction {
-    margin-top: 35px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -24,12 +33,11 @@
     gap: 10px;
     font-size: 45px;
   }
-  /* humburg */
 
+  /* humburg */
   nav .fa-solid {
     display: block;
     font-size: 25px;
-  
   }
 
   nav ul {
@@ -39,14 +47,14 @@
     width: 200px;
     height: 100vh;
     padding-top: 50px;
-    background: #000;
-    color: #fff2f2;
+    background: var(--nav-bgc-color);
+    color: var(--background-color);
     transition: right 0.5s;
     transition: 1s;
   }
 
   nav ul:hover {
-    border-bottom: 2px solid #262626;
+    border-bottom: 2px solid #595959;
   }
 
   nav ul li {
@@ -59,35 +67,29 @@
     top: 25px;
     left: 25px;
     cursor: pointer;
-    color: white;
+    color: var(--background-color);
   }
 
   .header-text {
-    margin-top: 50px;
     display: flex;
     flex-direction: column-reverse;
   }
 
   .header-text h1 {
     font-size: 20px;
-    margin-top: 5px;
   }
 
   .header-text p {
     font-size: 20px;
   }
+  .header-text p span {
+    font-size: 20px;
+  }
 
   .gif {
-    /* height: 150px; */
-    height: 432px;
+    height: 260px;
     width: 100%;
   }
-/* 
-  .content .detail h2 {
-    color: #262626;
-    font-size: 20px;
-    font-weight: bolder;
-  } */
 
   /* intro about  */
 
@@ -96,8 +98,6 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    /* flex-basis: 100%;
-    width: fit-content; */
     width: 100%;
     margin-top: 140px;
   }
@@ -108,7 +108,6 @@
   }
 
   .about-col-2 h1 {
-    /* font-size: 22px; */
     font-size: 34px;
   }
 
@@ -130,9 +129,8 @@
 
   .container-res h1 {
     font-weight: 600;
-    /* font-size: 24px; */
     font-size: 34px;
-    color: #fff2f2;
+    color: var(--primary-text-color);
   }
 
   .work {
@@ -146,7 +144,28 @@
     margin-top: 30px;
   }
 
-  /* contact */
+  /* Project section  */
+  .layer h3 {
+    font-size: 1.5rem;
+  }
+
+  .layer p {
+    color: var(--secondary-text-color);
+    font-size: 12px;
+  }
+  .layer a {
+    font-size: 0.8rem;
+  }
+  .layer a i {
+    font-size: 14px;
+    text-decoration: none;
+  }
+
+  .layer button {
+    padding: 6px 15px;
+  }
+
+  /* Contact Form */
 
   .contact-intro-row {
     display: flex;
@@ -160,23 +179,20 @@
   }
 
   .contact-left h1 {
-    /* font-size: 24px; */
-    
     font-size: 35px;
   }
+
   .contact-left {
     padding-left: 25px;
-     width: fit-content;
+    width: fit-content;
   }
 
   .social-icons a {
     font-size: 55px;
-}
+  }
   .contact-left p {
     margin-top: 4px;
-    color: #fff2f2;
-    /* font-size: 18px; */
-    /* color: var(--secondary-text-color); */
+    color: var(--secondary-text-color);
   }
 
   #msg {
@@ -190,17 +206,14 @@
   .about-col-2 p {
     font-size: 14px;
     width: 330px;
-    color: #262626;
-    /* color: var(--secondary-text-color); */
+    color: var(--secondary-text-color);
   }
 
   /* btn */
 
   .btn2 {
     display: inline-block;
-    /* padding: 6px 25px; */
     padding: 12px 34px;
-    /* margin: 0px 0px 40px 0px; */
     font-size: 20px;
     cursor: pointer;
     transition: none;
@@ -208,8 +221,7 @@
 
   .btn-res {
     display: inline-block;
-    /* margin: 25px 25px 0px 0px; */
-    border: 1px solid #262626;
+    border: 1px solid #595959;
     border-radius: 6px;
     padding: 12px 60px;
     font-size: 18px;
@@ -230,7 +242,8 @@
     display: flex;
     flex-direction: row;
     flex-basis: 100%;
-    background: #262626;
+    background: var(--nav-bgc-color);
+    color: var(--background-color);
     font-weight: 400;
     font-size: 14px;
   }
@@ -264,8 +277,7 @@
     border-radius: 6px;
     padding: 10px 20px;
     text-decoration: none;
-    color: #fff2f2;
-    /* color: var(--primary-text-color); */
+    color: var(--background-color);
     transition: background 0.5s;
     transition: 0.5s;
     font-size: 22px;
@@ -283,8 +295,6 @@
     margin-left: 15px;
   }
   .header-text h1 {
-    /* margin-top: 10px;
-    font-size: 30px; */
     font-size: 25px;
     margin-top: 10px;
   }
@@ -304,7 +314,7 @@
   .sub-title {
     font-weight: 600;
     font-size: 35px;
-    color: #fff2f2;
+    color: #320e3b;
   }
 
   .intro-row {
@@ -335,7 +345,7 @@
 
   #about {
     margin-top: 110px;
-    color: #ababab;
+    color: #320e3b;
   }
 
   .about-col-1 {
@@ -350,12 +360,14 @@
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background: #262626;
+    background:var(--nav-bgc-color);
+    color:var(--background-color);
     font-weight: 600;
     margin-top: 50px;
   }
 }
 
+/*  Above Laptop Screen Size */
 @media (min-width: 800px) and (max-width: 1024px) {
   .header-text {
     margin-top: 15%;
@@ -383,7 +395,7 @@
   .sub-title {
     font-weight: 600;
     font-size: 35px;
-    color: #fff2f2;
+    color: var(--primary-text-color);
   }
 
   .intro-row {
