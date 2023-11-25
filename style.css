@@ -74,7 +74,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
   color: var(--background-color);
-  border-radius: 6px;
+  /* border-radius: 6px; */
   padding: 10px 25px;
   background-color: transparent;
   font-size: 16px;
@@ -83,6 +83,7 @@ nav ul li a {
 
 nav ul li a:hover {
   color: var(--background-color);
+  border-left: 3px solid var(--background-color);
 }
 
 nav ul li a::after {
@@ -230,11 +231,28 @@ nav ul li a:hover::after {
 .skill-Icon ul:hover li span {
   color: var(--textHighlight-color);
   transition-duration: 1s;
+  border-bottom: 3px solid var(--primary-text-color);
 }
+
+.exp ul:hover li {
+  padding: 6px;
+  border-radius: 4px;
+  background-color: var(--primary-text-color);
+  color: var(--background-color);
+  transition-duration: 1s;
+}
+
+.exp ul:hover li span {
+  color: var(--textHighlight-color);
+  transition-duration: 1s;
+  border-bottom: 3px solid var(--textHighlight-color);
+}
+
 
 .tab-contents ul li span {
   color: var(--primary-text-color);
   font-size: 14px;
+  border-bottom: 3px solid var(--primary-text-color);
 }
 
 .tab-contents {
@@ -317,7 +335,7 @@ nav ul li a:hover::after {
 }
 
 .layer p {
-  color: var(--secondary-text-color);
+  color: #262626;
   font-size: 15px;
 }
 .layer a {

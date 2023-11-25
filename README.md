@@ -70,6 +70,7 @@ Javascript, HTML, CSS , Bootstrap
 1. Project description hover Text is not aligin  -------- COMPLETED!!!!
 2. add bottom border to Sub-titles               -------- COMPLETED!!!!
 3. Improve and change Project Section
-4. add Live links to Projects
-5. Contact form data is not recieving on google sheet chekones and re-connet 
-6. Navbr a tag bottom hover bottom bar is not working check it.
+4. add Live links to Projects 
+5. Contact form data is not recieving on google sheet chekones and re-connet  ---------- COMPLETED!!!!
+
+6. Navbr a tag bottom hover bottom bar is not working check it.   -------- COMPLETED!!!

@@ -38,6 +38,7 @@
   nav .fa-solid {
     display: block;
     font-size: 25px;
+    margin-right: auto;
   }
 
   nav ul {
@@ -150,7 +151,7 @@
   }
 
   .layer p {
-    color: var(--secondary-text-color);
+    color: #262626;
     font-size: 12px;
   }
   .layer a {

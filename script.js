@@ -1,8 +1,8 @@
 
 
 // Google sheet (This code store the tha data in google sheet )
-const scriptURL = 'https://script.google.com/macros/s/AKfycbxnfmW_JC4We1KwRx1zn2tgsf-6yCqaN3OxAW-tJhcpn5wSFaCXkic7Ta5udIO1cGq6/exec '
-const form = document.forms['submit-to-google-sheet']
+const scriptURL = 'https://script.google.com/macros/s/AKfycbzSUXndJ4Hfam9A55_P5y9Cjjw9xHXa9HD-ppqld9__ylz1ku3QPYiC2OTmOEtUARdm/exec'
+const form = document.forms['submit-to-google-Sheet']
 const msg = document.getElementById("msg")
 
 form.addEventListener('submit', e => {
