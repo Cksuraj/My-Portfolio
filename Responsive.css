@@ -92,6 +92,10 @@
     width: 100%;
   }
 
+  .skill-Icon ul {
+    grid-gap: 5px;
+}
+
   /* intro about  */
 
   .intor-about {
@@ -100,7 +104,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    margin-top: 140px;
+    margin-top: 60px;
   }
 
   .card {
@@ -113,7 +117,7 @@
   }
 
   .tab-contents ul li {
-    padding: 15px;
+    padding: 12px;
     font-size: 14px;
   }
 
@@ -145,14 +149,16 @@
     margin-top: 30px;
   }
 
+  
   /* Project section  */
   .layer h3 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .layer p {
     color: #262626;
     font-size: 12px;
+    text-align: justify;
   }
   .layer a {
     font-size: 0.8rem;
@@ -207,6 +213,7 @@
   .about-col-2 p {
     font-size: 14px;
     width: 330px;
+    text-align: justify;
     color: var(--secondary-text-color);
   }
 
@@ -265,7 +272,7 @@
   .work img {
     width: -webkit-fill-available;
     height: 250px;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
@@ -285,7 +292,7 @@
   }
 }
 
-/* Tablet and medium size screen  */
+/* Tablet and medium size screen */
 @media (min-width: 768px) and (max-width: 800px) {
   .header-text {
     margin-top: 20%;
@@ -368,7 +375,7 @@
   }
 }
 
-/*  Above Laptop Screen Size */
+/* Above Laptop Screen Size */
 @media (min-width: 800px) and (max-width: 1024px) {
   .header-text {
     margin-top: 15%;
