@@ -401,6 +401,11 @@ nav ul li a:hover::after {
   background-color: var(--b2-btn-color);
 }
 
+#button-link{
+  display: flex;
+  flex-basis: auto;
+  gap: 8px;
+}
 
 /* Contact */
 
