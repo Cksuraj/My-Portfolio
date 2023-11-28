@@ -12,39 +12,47 @@ I am a dynamic and innovative web developer with a deep passion for crafting vis
 
 Projects: Showcasing Technical Proficiency and Results-Oriented Approach
 
-### Project 1: MoviesHub_Responsive
+* Hosted Link : http://127.0.0.1:59283/My-Portfolio/index.html
 
-Description: This project demonstrates my ability to create responsive and highly functional websites by utilizing the power of HTML, CSS, and JavaScript. From concept to execution, I meticulously crafted an immersive user experience with pixel-perfect design and seamless navigation.
+___________________________________
+## website Screenshots
+![Alt text](homep.png)
+![Alt text](projectp.png)
+![Alt text](contactp.png)
+___________________________________
 
-Technologies Used: HTML, CSS, JavaScript
 
-Demo: [ link  will Update soon]
+### Project 1: Currency Converter
+
+Description:  A swift and intuitive currency converter built using Vite, React, and TailwindCSS. Whether you're traveling, doing business internationally get accurate conversion rates at your fingertips. Utilizes a real-time currency data.
+
+Technologies Used: HTML, CSS, JavaScript , React.js, API
+
+Demo: https://curr-convertorr.netlify.app/
 
 
-Key Achievements: In This project I have contribute and Added New Feture:video player. 
+Key Achievements: Utilizes a real-time currency data.
 
-### Project 2: Health_center
+### Project 2: Instagram Authentication
 
-Description: In this project, I tackled complex challenges and delivered innovative solutions through my expertise in web development. I integrated cutting-edge technologies and leveraged CSS animations, JavaScript libraries, and interactive elements to create a unique and visually captivating website.
+Description: This project implements user authentication for an Instagram application using the MERN stack. The authentication process involves secure password hashing, JSON Web Token generation, CORS handling, and other features.
 
-Technologies Used: HTML, CSS, JavaScript, Bootstrap
+Technologies Used: HTML, CSS, JavaScript, Node.js , Mongodb, Express , React.js
 
-Key Achievements: Impressive Web-design and You can also book Appointment to connet with us.
+Key Achievements:  The authentication process involves secure password hashing, JSON Web Token generation, CORS handling, and other features.
 
 Demo: [link will Update soon]
 
-### Project 3: Care E-commerse Website
+### Project 3: Beats Headphone
 
-Description: This project showcases my ability to build responsive and scalable websites with an emphasis on user experience and accessibility. Through a combination of clean code, modern design principles, and thoughtful interaction patterns, I created a seamless and engaging digital platform.
+Description:  This is small mini-projects which i build useing HTML,CSS and
+                javascript. You can check by pressing the live button
 
 Technologies Used: HTML, CSS, JavaScript.
 
-Key Achievements: 
+Key Achievements: Impressive Web Design. 
 
-You can add product into cart see your bill. Product Details and styling.
-
-Demo:  
-Clone my repo into to your local system to have a look or simply visite my (care E-commerse Website project Repo) 
+Demo: https://cksuraj.github.io/Beats-Headphons/
 
 GitHub Repository: 
 
