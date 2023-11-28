@@ -220,7 +220,7 @@ nav ul li a:hover::after {
 
 .skill-Icon ul {
   display: grid;
-  grid-template-columns: repeat(3, auto);
+  grid-template-columns: repeat(3,auto);
 }
 .skill-Icon ul:hover li {
   background-color: var(--primary-text-color);
@@ -252,7 +252,7 @@ nav ul li a:hover::after {
 .tab-contents ul li span {
   color: var(--primary-text-color);
   font-size: 14px;
-  border-bottom: 3px solid var(--primary-text-color);
+  border-bottom: 1px solid var(--primary-text-color);
 }
 
 .tab-contents {
