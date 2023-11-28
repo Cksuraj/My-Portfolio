@@ -14,11 +14,7 @@
 @media (min-width: 320px) and (max-width: 430px) {
   /* 1st */
   .introduction {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     flex-direction: column-reverse;
-    align-content: center;
     padding: 10px;
   }
 
@@ -94,6 +90,7 @@
 
   .skill-Icon ul {
     grid-gap: 5px;
+    grid-template-columns: repeat(3,102px);
 }
 
   /* intro about  */
@@ -105,11 +102,6 @@
     flex-direction: column;
     width: 100%;
     margin-top: 60px;
-  }
-
-  .card {
-    height: 345px;
-    width: 250px;
   }
 
   .about-col-2 h1 {
@@ -153,6 +145,8 @@
   /* Project section  */
   .layer h3 {
     font-size: 1rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--primary-text-color);
   }
 
   .layer p {
@@ -162,6 +156,7 @@
   }
   .layer a {
     font-size: 0.8rem;
+    padding: 7px 10px;
   }
   .layer a i {
     font-size: 14px;
