@@ -3,16 +3,15 @@ Hi.. Welcome !
 
 Showcasing Exceptional Web Development Skills
 
-Welcome to my impressive portfolio, where I showcase my expertise in web development using HTML, CSS, and JavaScript. As a highly skilled and passionate web developer, I strive to deliver exceptional digital experiences that captivate users and drive results. Let's dive into my projects and achievements that highlight my capabilities and make me an excellent candidate for your consideration.
+"Hello and welcome to my portfolio, where I proudly display my proficiency in web development through the languages of HTML, CSS, and JavaScript. As a dedicated and skilled web developer, I am committed to creating outstanding digital experiences that not only engage users but also yield impressive results. Join me as we explore my projects and accomplishments, each serving as a testament to my capabilities and positioning me as an outstanding candidate for your consideration."
 
 About Me:
 
- Driven by Creativity and Technical Excellence
-I am a dynamic and innovative web developer with a deep passion for crafting visually stunning and user-friendly websites. Equipped with strong problem-solving skills and a creative mindset, I consistently deliver projects that surpass expectations. With a keen eye for design, attention to detail, and a solid understanding of user experience principles, I am dedicated to building intuitive and engaging web solutions.
+Driven by Creativity and Technical Excellence I am a dynamic and innovative web developer with a deep passion for crafting visually stunning and user-friendly websites. Equipped with strong problem-solving skills and a creative mindset, I consistently deliver projects that surpass expectations. With a keen eye for design, attention to detail, and a solid understanding of user experience principles, I am dedicated to building intuitive and engaging web solutions.
 
 Projects: Showcasing Technical Proficiency and Results-Oriented Approach
 
-* Hosted Link : http://127.0.0.1:59283/My-Portfolio/index.html
+* Hosted Link : https://suraj-myportfolio.netlify.app/
 
 ___________________________________
 ## website Screenshots
@@ -59,7 +58,7 @@ GitHub Repository:
 In-Depth Look at Code and Technical Expertise
 To gain deeper insights into my technical skills and coding abilities, I invite you to explore my GitHub repository. It hosts a comprehensive collection of my projects, including the source code, commit history, and any additional assets used. By reviewing my code, you will witness my attention to detail, best coding practices, and ability to write clean, maintainable, and scalable code.
 
-Visit my GitHub repository to access the wealth of information and get a closer look at my coding prowess.
+Visit my GitHub repository to access the wealth of information and get a closer look at my devlopment skills.
 
 Contact Me: Let's Collaborate and Create Exceptional Web Experiences
 
