@@ -308,9 +308,9 @@ nav ul li a:hover::after {
 .layer {
   width: auto;
   height: 0;
-  background: #7286d3;
-  background: -webkit-linear-gradient(to right, #ffffff, #7286d3, #7286d3);
-  background: linear-gradient(to right, #ffffff, #7286d3, #7286d3);
+  background: #7285d3d4;
+  background: -webkit-linear-gradient(to right, #ffffff, #7285d3d4, #7285d3d4);
+  background: linear-gradient(to right, #ffffff, #7285d3d4, #7285d3d4);
   border-radius: 10px;
   position: absolute;
   left: 0;
