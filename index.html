@@ -277,7 +277,6 @@
               </a>
             </div>
           </div>
-
           <!-- More Projects direct to git repo to see project highlights -->
           <div class="work">
             <img src="./images/imgpm.jpg" />
@@ -293,7 +292,7 @@
             </div>
           </div>
         </div>
-        <button class="btn btn-res" id="Btn">See More</button>
+        <button class="seemore-btn" id="Btn">See More...</button>
       </div>
     </div>
 
@@ -320,17 +319,23 @@
               </a>
             </div>
             <a
-              href="https://drive.google.com/file/d/1An30vnlgPRLiN9hprOUAJfYDgrQbDf_d/view?usp=sharing"
+              href="https://drive.google.com/file/d/1CtZ1f1JXcEw2Ezwt8x1uNFk4OPIOCZdj/view?usp=sharing"
               target="_blank"
               download
-              class="btn btncv-res"
+              class="resume btncv-res"
             >
               Resume
             </a>
           </div>
 
           <div class="contact-right">
-            <form name="submit-to-google-Sheet">
+            <form method="POST" id="form">
+              <input
+                type="hidden"
+                name="access_key"
+                value="ff4de1ed-f974-481f-9860-ec2819dc99da"
+              />
+
               <input type="text" name="Name" placeholder="Your Name" required />
 
               <input
@@ -345,9 +350,9 @@
                 rows="6"
                 placeholder="Your Message"
               ></textarea>
-              <button type="submit" id="Btn" class="btn btn2">Submit</button>
+              <div id="result"></div>
+              <button type="submit" id="Btn" class="submit-btn">Submit</button>
             </form>
-            <span id="msg"> </span>
           </div>
         </div>
       </div>
